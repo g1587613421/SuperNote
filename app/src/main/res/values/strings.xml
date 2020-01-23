@@ -1,0 +1,74 @@
+<resources>
+    <!-- 登陆界面相关 -->
+    <string name="prompt_phone">电话号码</string>
+    <string name="prompt_password">验证码</string>
+    <string name="action_sign_in">登陆</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_phone">手机号码无效</string>
+    <string name="error_invalid_password">密码长度不符合要求</string>
+    <string name="error_incorrect_password">验证码错误</string>
+    <string name="error_field_required">必填内容</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <!-- 登陆界面相关结束 -->
+    <string name="app_name">便签</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="note_privacy_and_recycle">私密便签无法直接预览，请先恢复！</string>
+
+    <string name="database_content_one">
+使用前请认真阅读以下内容了\n
+一.功能特色\n
+1.通过便签模板自定义模板,快速搭建一个便签带有初始数据的便签.\n
+2.	你可以为你的便签分类,让你的便签有条不紊\n
+3.	你可以通过模糊搜索筛选你的便签,让你不再为找不到便签而烦恼。\n
+4.	私密便签，九宫格密码保护，让你的小秘密不再暴露。\n
+5.	拥有废纸篓功能，找回最近删除的便签\n
+6.	使用QQ登陆，一键初始化你的信息\n
+7.	快速便捷的分享功能，让你把生活中的趣事分享给你身边的人\n
+8.	桌面小部件（暂时不支持安卓8.0及以上系统版本）：\n
+快速建立你的待办，轻松管理待办内容，不启动app让你的待办一目了然。\n
+9.	便签日志，建立你的便签档案，增量备份保存你的便签每一个版本不丢失\n
+10.	在快速启动设置上，你可以自定义默认界面，让你以最快速度记下你想记录的内容。方便你的生活。\n
+11.	你可以通过天气查看界面查看天气状况，了解实时天气数据，24小时天气数据，未来七天的天气，没有广告权威的天气数据方便你的生活。\n
+12.	优化定位，在快速提供精确的定位数据的同时大幅节省手机电量\n
+13.	极少的网络连接，严格的内存优化，拒绝任何广告，它是一款真正极简的便签。\n
+14.	更强大的用户自定义，让app变成你想要的样子。\n
+15.	小部件有了问题不要急，试试一键修复\n
+16.	对本程序有什么建议或者在使用期间出现了问题，通过反馈功能将日志一同发送给开发者，我们会认真对待每一个建议。\n
+
+    </string>
+    <string name="database_content_two">
+        欢迎使用便签app如果遇到问题请及时联系开发者.\n
+性能提示\n
+1.	桌面小部件不兼容安卓8.0及以上版本，在低于安卓8.0的机型上有小概率出现数据延迟问题\n
+2.	看看天气功能（不同于便签天气状态的天气功能）受第三方功能提供者影响，目前只支持ip单独定位，定位数据受运营商和当前的所处的网络状态影响。正在协商将会尽快解决\n
+3.	当用户设置快速新建便签的自动化功能后，有极低概率出现数据初始化错误，导致便签模板错误—不可修复（取决于手机网络，GPS，性能等因素）\n
+4.	部分机型需要手动授予权限---请前往手机-设置-软件管理(权限管理)-找到该应用授予必须的联网,存储,GPS定位等权限。\n
+5.	少数机器下或未开启存储权限下，分享功能以图片形式直接分享概率性出现闪退。\n
+
+        联系方式详见设置-关于-关于开发者
+    </string>
+
+
+    <string name="dev_say"></string>
+
+    <string name="about_key_to_alipay">to_alipay</string>
+    <string name="about_key_about_dev">about_dev</string>
+    <string name="about_key_to_market">to_market</string>
+    <string name="about_key_check_version">check_version</string>
+    <string name="about_key_to_feedback">to_feekback</string>
+
+    <string name="alipay_qr_code">HTTPS://QR.ALIPAY.COM/FKX02721AXZAQSWD7F1IF1?t=1552914518992</string>
+    <string name="my_email">g1587613421@outlook.com</string>
+    <string name="qq"><u>1587613421</u></string>
+    <string name="phone">18538948760</string>
+    <string name="csdn">暂无</string>
+    <string name="app_github">暂无</string>
+    <string name="bmob_app_id">暂无</string>
+
+</resources>

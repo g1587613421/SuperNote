@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="通用"
+        android:key="pref_cate_base">
+        <app.gaojinlei.note.widget.ThemeChoicePreference
+            android:key="theme" />
+        <SwitchPreference
+            android:key="is_use_recycle"
+            android:title="废纸篓"
+            android:summary="删除的便签可以在废纸篓中恢复"
+            android:defaultValue="true"/>
+        <PreferenceScreen
+            android:title="快速启动"
+            android:summary="自动化操作"
+            android:key="start">
+            <intent
+                android:action="quick_new_note" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="隐私与日志"
+        android:key="pref_cate_base">
+        <PreferenceScreen
+            android:title="密码"
+            android:summary="私密便签密码设置"
+            android:key="screen_lock">
+            <intent
+                android:action="com.app.gaojinlei.note.LOCK_SETTING" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="日志管理"
+            android:key="log">
+            <intent
+                android:action="logsetting" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="扩展"
+        android:key="pref_cate_base">
+        <PreferenceScreen
+            android:title="便签模板"
+            android:summary="设置默认打开的空便签所包含的内容"
+            android:key="note_model">
+            <intent
+                android:action="notemodelsetting" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="桌面小部件设置"
+            android:summary="小部件相关设置"
+            android:key="wedgetsetting">
+            <intent
+                android:action="wedgetsetting" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="天气查询"
+            android:summary="查询最近的天气详情"
+            android:key="wedgetsetting">
+            <intent
+                android:action="weatherweb" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="附加"
+        android:key="pref_cate_base">
+        q2
+        <PreferenceScreen
+            android:title="反馈"
+            android:key="about">
+            <intent
+                android:action="com.app.gaojinlei.note.FEEDBACK"/>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="关于"
+            android:key="about">
+            <intent
+                android:action="com.app.gaojinlei.note.APP_ABOUT"/>
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="开发者信息"
+            android:key="aboutauthor">
+            <intent
+                android:action="com.app.gaojinlei.note.DEVELOPER"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+</PreferenceScreen>

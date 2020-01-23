@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="H:\Androidworkspeace\SuperNote-master\app\libs\AMap3DMap_5.7.0_AMapNavi_5.6.0_AMapSearch_5.7.0_AMapLocation_3.7.0_20180109.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8aa60a9467b6e247712a54578f8d1c021d7c86d8">
+        <dex dex="H:\Androidworkspeace\SuperNote-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap3DMap_5.7.0_AMapNavi_5.6.0_AMapSearch_5.7.0_AMapLocation_3.7.0_20180109_f5af300aa51e2d74db5f45301d0443170d08c744\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="H:\Androidworkspeace\SuperNote-master\app\libs\open_sdk_r6019_lite.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="dde45810a88f02f379fa3a6fd4ecd413e7ca3ac7">
+        <dex dex="H:\Androidworkspeace\SuperNote-master\app\build\intermediates\transforms\dex\debug\folders\1000\2\open_sdk_r6019_lite_79a2b5556cf3e05f7ca581be3e793d19f346c36e\classes.dex" />
+    </item>
+
+</items>

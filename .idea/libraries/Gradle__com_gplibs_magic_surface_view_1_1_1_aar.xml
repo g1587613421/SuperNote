@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.gplibs:magic-surface-view:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/936d2adbf1a8f3b19d0163bbe82c5b2a04f4a2fe/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/936d2adbf1a8f3b19d0163bbe82c5b2a04f4a2fe/output/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gplibs/magic-surface-view/1.1.1/79270704e81e22922471ef859cc803230ec9aee1/magic-surface-view-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.gplibs/magic-surface-view/1.1.1/32f7b2a439b852490703f37a66f75e52276e85b0/magic-surface-view-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

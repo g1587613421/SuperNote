@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="#03a9f4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="模板设置" />
+
+            <Switch
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                style="@style/Theme.AppCompat"
+                android:layout_marginTop="15sp"
+                android:textSize="17sp"
+                android:id="@+id/usemodel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="启用模板" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:background="#25000000"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp" />
+            <LinearLayout
+                android:id="@+id/modelLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Switch
+                    android:layout_marginTop="15sp"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:id="@+id/timeshow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="显示时间" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:background="#25000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <Switch
+                    android:layout_marginTop="15sp"
+                    android:textSize="17sp"
+                    android:id="@+id/showauthor"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="备注创建者" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:background="#25000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <LinearLayout
+                    android:id="@+id/nameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/userauthor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="名称(不填默认使用QQ昵称)" />
+                </LinearLayout>
+
+                <Switch
+                    android:layout_marginTop="15sp"
+                    android:textSize="17sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:id="@+id/showlocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="显示位置" />
+                <TextView
+                    android:background="#000"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <LinearLayout
+                    android:id="@+id/deflocationlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_marginTop="15sp"
+                        android:id="@+id/deflocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="定位失败的时候的城市名(选填-建议默认)" />
+                </LinearLayout>
+
+                <Switch
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="15sp"
+                    android:id="@+id/showweather"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="显示天气" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:background="#25000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <Switch
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="15sp"
+                    android:id="@+id/showusermodel"
+                    android:textSize="17sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="自定义模板定制" />
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:background="#25000000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp" />
+
+                <LinearLayout
+                    android:id="@+id/usermodelcontentlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_marginTop="15sp"
+                        android:id="@+id/usermodelcontent"
+                        android:lines="10"
+                        android:minLines="5"
+                        android:layout_width="match_parent"
+                        android:layout_height="100sp"
+                        android:text="" />
+                </LinearLayout>
+                <TextView
+                    android:textColor="#25000000"
+                    android:textSize="15sp"
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="更多模板模式正在开发尽情期待,可向联系开发者提供建议" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

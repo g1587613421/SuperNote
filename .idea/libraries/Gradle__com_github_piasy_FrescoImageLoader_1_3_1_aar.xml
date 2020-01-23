@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.piasy:FrescoImageLoader:1.3.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/a908a7960a166b123ebd9e1ee7a05803d8a1d4ae/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/a908a7960a166b123ebd9e1ee7a05803d8a1d4ae/output/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.piasy/FrescoImageLoader/1.3.1/7fbc81abd8031aaafddaa486630cb8bc37a551c2/FrescoImageLoader-1.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.piasy/FrescoImageLoader/1.3.1/88a4acb9bc69e3fb70e0782645b0b498f29940ee/FrescoImageLoader-1.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

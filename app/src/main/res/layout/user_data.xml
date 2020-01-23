@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03a9f4"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:text="用户信息"
+            android:textSize="20sp" />
+
+        <app.gaojinlei.tools.MyImageView
+            android:id="@+id/myImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            app:srcCompat="@mipmap/defuserimage" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myImageView"
+            android:layout_marginEnd="23dp"
+            android:layout_marginRight="23dp"
+            android:layout_marginTop="25dp"
+            android:layout_toLeftOf="@+id/myImageView"
+            android:layout_toStartOf="@+id/myImageView"
+            android:text="昵称:" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView7"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@+id/myImageView"
+            android:layout_toStartOf="@+id/myImageView"
+            android:text="所在城市:" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView5"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:layout_marginTop="24dp"
+            android:text="性别:" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView6"
+            android:layout_alignStart="@+id/textView6"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="24sp"
+            android:layout_centerVertical="true"
+            android:text="年龄:" />
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/name"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:layout_alignTop="@+id/textView5"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_toRightOf="@+id/textView5"
+            android:text="未知" />
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/sex"
+            android:layout_alignTop="@+id/textView6"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:layout_alignBottom="@+id/textView6"
+            android:layout_alignEnd="@+id/name"
+            android:layout_alignRight="@+id/name"
+            android:text="未定义"
+            />
+
+        <TextView
+            android:textSize="15sp"
+            android:id="@+id/age"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:layout_alignEnd="@+id/sex"
+            android:layout_alignRight="@+id/sex"
+            android:layout_alignTop="@+id/textView7"
+            android:text="未知" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="150sp"
+            android:layout_height="30sp"
+            android:layout_alignBaseline="@+id/textView8"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_toEndOf="@+id/textView9"
+            android:layout_toRightOf="@+id/textView9"
+            android:text="未知" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100sp"
+            android:layout_height="50sp"
+            android:layout_alignEnd="@+id/textView14"
+            android:layout_alignRight="@+id/textView14"
+            android:layout_below="@+id/city"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/ok_image"
+            android:onClick="logined" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/textView14"
+            android:layout_alignEnd="@+id/city"
+            android:layout_alignRight="@+id/city"
+            android:background="@drawable/logout_button"
+            android:onClick="logOut"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="29dp"
+            android:textSize="10sp"
+            android:text="目前不支持QQ用户直接修改用户信息" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_alignTop="@+id/userlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/userlocation"
+            android:layout_alignLeft="@+id/textView8"
+            android:layout_alignStart="@+id/textView8"
+            android:text="当前位置" />
+
+        <TextView
+            android:id="@+id/userlocation"
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:layout_below="@+id/city"
+            android:text="未知"
+            android:layout_toEndOf="@+id/textView9"
+            android:layout_toRightOf="@+id/textView9"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

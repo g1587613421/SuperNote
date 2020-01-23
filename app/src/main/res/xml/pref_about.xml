@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:key="@string/about_key_about_dev"
+        android:title="关于开发者">
+        <intent android:action="com.app.gaojinlei.note.DEVELOPER" />
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/about_key_to_market"
+        android:title="给应用评分"></PreferenceScreen>
+    <PreferenceScreen
+        android:key="@string/about_key_to_feedback"
+        android:title="问题反馈">
+        <intent android:action="com.app.gaojinlei.note.FEEDBACK" />
+    </PreferenceScreen>
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:title="更新提醒"
+        android:summary="WiFi自动检查并提醒更新"
+        />
+    <PreferenceScreen
+        android:key="@string/about_key_check_version"
+        android:title="检查更新"
+        android:summary="将跳转手机默认商店查看更新"
+        ></PreferenceScreen>
+</PreferenceScreen>

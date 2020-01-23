@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:soloader:2.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/149f224217532387c1c530df241f7496bfef946f/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/149f224217532387c1c530df241f7496bfef946f/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

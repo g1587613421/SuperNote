@@ -1,0 +1,16 @@
+Index: app/src/main/java/app/gaojinlei/note/module/notes/main/NoteMainPresenter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/app/gaojinlei/note/module/notes/main/NoteMainPresenter.java	(revision )
++++ app/src/main/java/app/gaojinlei/note/module/notes/main/NoteMainPresenter.java	(revision )
+@@ -83,7 +83,7 @@
+     }
+ 
+     public static void setPostfix() {
+-        prefix="创建人"+getUser()+"地点:"+"天气";
++        postfix="创建人"+getUser()+"地点:"+"天气";
+ 
+ 
+     }

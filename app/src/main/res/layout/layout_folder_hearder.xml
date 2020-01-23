@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="?attr/colorPrimary"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <app.gaojinlei.tools.MyImageView
+        android:id="@+id/img_user_header"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@mipmap/defuserimage"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="56dp"
+        />
+    <!--myimageView不能点击,使用Button覆盖完成点击-->
+    <Button
+        android:background="#00000000"
+        android:onClick="login"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="56dp"
+        android:id="@+id/button4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_toRightOf="@id/img_user_header"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="56dp"
+        android:gravity="center"
+        android:text="便签"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:id="@+id/textView13" />
+    <TextView
+        android:id="@+id/tv_folderlist_to_feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp"
+        android:padding="2dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_mood_bad_white_24dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text=" 吐槽一下"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/tv_folderlist_to_developer"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/tv_folderlist_to_feedback"
+        android:layout_marginRight="4dp"
+        android:padding="2dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/ic_mood_white_24dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text=" 关于开发者"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/show_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/tv_folderlist_to_developer"
+        android:layout_marginRight="4dp"
+        android:padding="2dp"
+        android:clickable="true"
+        android:drawableLeft="@drawable/sunny"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:text=" 看看天气"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:onClick="onClick"/>
+
+</RelativeLayout>

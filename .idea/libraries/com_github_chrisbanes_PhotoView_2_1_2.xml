@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.github.chrisbanes:PhotoView-2.1.2">
+    <CLASSES>
+      <root url="file://E:/AndroidSDK/.android/build-cache/326362375ee86b22dad2679a61afc97930b67b5e/output/res" />
+      <root url="jar://E:/AndroidSDK/.android/build-cache/326362375ee86b22dad2679a61afc97930b67b5e/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.chrisbanes/PhotoView/2.1.2/819e6c5ffc041350062920754d5174bcd1f098b7/PhotoView-2.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

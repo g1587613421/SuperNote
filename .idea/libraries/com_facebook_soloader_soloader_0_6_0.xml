@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="com.facebook.soloader:soloader-0.6.0">
+    <CLASSES>
+      <root url="jar://E:/AndroidSDK/.android/build-cache/93dc589e498067bc1de82cd486c2ccfcdfc048d9/output/jars/classes.jar!/" />
+      <root url="file://E:/AndroidSDK/.android/build-cache/93dc589e498067bc1de82cd486c2ccfcdfc048d9/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.soloader/soloader/0.6.0/64c26cc7854bb6d513b6607693eb0d95302ddc34/soloader-0.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
